@@ -27,11 +27,11 @@ class Logo extends Component{
     "Book a room and children go free"
 ] 
     const Listofoffers = () => (
-      <ul>
+      <div>
         {offers.map((offer)=> (
-          <li> {offer} </li>
+          <p> {offer} </p>
         ))}
-     </ul>)
+    </div> )
 
      return (
        <div>
